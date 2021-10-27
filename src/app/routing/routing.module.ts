@@ -9,6 +9,7 @@ const routes : Routes = [
   {path : '' , component : Page1Component},
   {path : 'page1' , component : Page1Component},
   {path : 'page2' , component : Page2Component},
+  {path : 'page2/:id/:id2' , component : Page2Component}
 ];
 
 @NgModule({

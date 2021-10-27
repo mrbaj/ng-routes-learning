@@ -2,8 +2,8 @@
 
 <nav>
     <ul>
-      <li><a routerLink="page1" routerLinkActive="active">First Component</a></li>
-      <li><a routerLink="page2" routerLinkActive="active">Second Component</a></li>
+      <li><a [routerLink]="['page1']"routerLinkActive="active">First Component</a></li>
+      <li><a [routerLink]="['page2',{id:1, id2:'3'}]" routerLinkActive="active">Second Component</a></li>
     </ul>
   </nav>
 
